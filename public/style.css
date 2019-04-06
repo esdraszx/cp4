@@ -1,0 +1,173 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    min-height: 400px;
+    height: 500px;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black !important;
+}
+/*INDEX*/
+#admin {
+    margin-top: -40px;
+    float: right;
+    margin-right: 5%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgba(0,0,0, 0.5);
+    border-radius: 3px;
+    background-color: rgba(140, 252, 140, 0.5);
+}
+
+#in {
+    background-color: rgba(0, 128, 0, 0.5);
+}   
+
+#out {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#box {
+    margin-top: 10%;
+    text-align: center;
+    width: 50%;
+    min-width: 200px;
+    margin-left: 25%;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0, 0.2);
+}
+
+#box input {
+    width: 120px;
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0, 0.5);
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#box button {
+    margin: 10px 0px 20px 0px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.table {
+    width: 80% !important;
+    min-width: 400px;
+    margin-left: 10%;
+}
+
+/*ADMIN*/
+
+#save {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+ 
+#delete {
+    font-weight: bolder;
+}
+
+#save button {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(63, 248, 63, 0.5);
+}
+
+.adminMenu {
+    margin-top: 5%;
+    text-align: center;
+    width: 80%;
+    min-width: 200px;
+    margin-left: 10%;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0, 0.2);
+}
+
+.adminMenu ul {
+    display: inline-flex;
+    text-align: center;
+}
+
+.adminMenu ul li {
+    margin: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+.adminMenu ul li button {
+    background-color: rgba(63, 248, 63, 0.5);
+}
+
+@media only screen and (max-width: 1000px){
+    .adminMenu {
+        width: 100%;
+        margin-left: 0%;
+        border: 1px solid red;
+    }
+
+    .adminMenu ul li {
+        margin: 0px 10px 0px 10px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .adminMenu ul li input {
+        width: 100px;
+        border: 1px solid
+    }
+
+    .table {
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .table input {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+    body {
+        width: 500px !important;
+        margin-left: 0px;
+    }
+
+    .adminMenu {
+        width: 100% !important;
+        margin-left: 0;
+        border: 1px solid red;
+    }
+
+    .adminMenu ul li {
+        margin: 0px 10px 0px 10px;
+        text-align: center;
+    }
+
+    .adminMenu ul li input {
+        width: 100px;
+        border: 1px solid;
+    }
+
+    .table {
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .table input {
+        width: 120px;
+    }
+}
