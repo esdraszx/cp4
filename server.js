@@ -9,8 +9,6 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-app.use(express.static('public'));
-
 // connect to the database
 mongoose.connect('mongodb://localhost:27017/clockUsers', {
     useNewUrlParser: true
